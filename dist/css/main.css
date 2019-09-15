@@ -308,9 +308,48 @@ template {
 [hidden] {
   display: none; }
 
+.hero {
+  max-width: 1184px;
+  padding: 112px 0 200px;
+  margin: 0 auto; }
+  .hero__image {
+    border-radius: 100px;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 0px 0px 6px #CBD2D9;
+            box-shadow: 0px 0px 0px 6px #CBD2D9;
+    height: 120px;
+    width: 120px; }
+  .hero__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    max-width: 780px;
+    margin: 2rem 0 1rem; }
+  .hero__description {
+    color: #52606D;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 36px;
+    max-width: 780px;
+    margin-bottom: 3.75rem; }
+  .hero__link {
+    color: #0593FB;
+    font-weight: 500; }
+  .hero__mail {
+    color: #0593FB;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0593FB; }
+
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  font-size: 16px; }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -321,13 +360,5 @@ body {
   background: #fff;
   font-family: 'Poppins', sans-serif;
   border: 16px solid #171F3F; }
-
-.hero__image {
-  border-radius: 100px;
-  border: 5px solid #fff;
-  -webkit-box-shadow: 0px 0px 0px 6px #CBD2D9;
-          box-shadow: 0px 0px 0px 6px #CBD2D9;
-  height: 100px;
-  width: 100px; }
 
 /*# sourceMappingURL=main.css.map */
