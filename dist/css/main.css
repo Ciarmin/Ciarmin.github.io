@@ -366,8 +366,8 @@ template {
   padding: 8rem 0 0; }
   .skills-list__title {
     font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 2rem;
+    line-height: 2.75rem;
     margin: 0; }
     .skills-list__title::before {
       content: '';
@@ -461,9 +461,9 @@ template {
   .project__link {
     color: #0593FB;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-decoration: none;
-    line-height: 32px;
+    line-height: 2rem;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -475,7 +475,7 @@ template {
       position: relative; }
       .project__link + .project__link::after {
         content: '';
-        height: 32px;
+        height: 2rem;
         width: 2px;
         background: #CBD2D9;
         display: block;
