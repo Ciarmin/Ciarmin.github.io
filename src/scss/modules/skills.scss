@@ -1,9 +1,11 @@
 .skills {
-    max-width: 1184px;
-    margin: 0 auto;
+    max-width: 1216px;
+    padding: 0 16px; 
+    margin: 0 auto 8rem;
     &__title {
         font-size: 2.25rem;
         margin: 0;
+        font-style: normal;
         font-weight: 600;
         padding: 1rem 0;
         border-bottom: 2px solid #E5E8EC;
